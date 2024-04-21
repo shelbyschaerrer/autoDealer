@@ -1,0 +1,10 @@
+<svg  version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+   <circle cx="11" cy="6" r="3" stroke="#000" stroke-width="1" fill="none" />
+   <circle cx="11" cy="15" r="4" stroke="#000" stroke-width="1" fill="none" />
+   <circle cx="11" cy="15" r="2" stroke="#000" stroke-width="1" fill="none" />
+   
+   <line x1="4" y1="1" x2="18" y2="1" stroke="#000" stroke-width="1" stroke-linecap="round" />
+   <line x1="4" y1="1" x2="4" y2="21" stroke="#000" stroke-width="1" stroke-linecap="round" />
+   <line x1="18" y1="1" x2="18" y2="21" stroke="#000" stroke-width="1" stroke-linecap="round" />
+   <line x1="4" y1="21" x2="18" y2="21" stroke="#000" stroke-width="1" stroke-linecap="round" /> <!--Realized too late this could be a polyline, didn't feel like redoing it-->
+</svg>

@@ -1,0 +1,55 @@
+header {
+    padding: 2rem $gutter;
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    button {
+        display: none;
+    }
+    ul, ul.open {
+        list-style-type: none;
+        display: flex;
+        width: 50%;
+        border: none;
+        li {
+            flex: 1;
+            border: none;
+        }
+    }
+    li.active {
+       color: white;
+    }
+    ul li a {
+        display: block;
+        padding: .75rem;
+        text-align: center;
+        &:hover {
+            background-color: #F2D479;
+            color: black;
+        }
+    }
+}
+
+.hero {
+    p {
+        top: 23%;
+        width: 50%;
+        padding: 1rem;
+        font-size: 2rem;
+        background-color: orange;
+    }
+}
+
+.allCards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $gutter;
+    section {
+        flex-basis: calc(50% - ($gutter/2));
+    }
+}
