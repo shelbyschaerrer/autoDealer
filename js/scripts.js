@@ -26,6 +26,7 @@ for (let x = 0; x < reviews.length; x++) {
     for (let step = 0; step<reviews[x].stars; step++) {
         const starNumber = document.createElement('img')
         starNumber.src = "./images/star-outline.svg" //fixed for github
+        starNumber.alt = "star"
         myRating.appendChild(starNumber)
     }
 

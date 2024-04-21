@@ -390,20 +390,19 @@ nav ul {
 nav ul li {
   flex: 1;
   border-bottom: solid 1px rgb(99, 98, 98);
-  color: white;
-  background-color: #F2811D;
+  background-color: #f4ad6f;
 }
 nav ul.open {
   display: block;
 }
 nav li.active {
-  background-color: #D93D93;
+  background-color: #fcb4db;
 }
 nav a {
   display: block;
   padding: 0.85rem;
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .hero {
@@ -425,6 +424,7 @@ nav a {
   font-size: 1.5rem;
   right: 0;
   background-color: rgba(255, 166, 0, 0.81);
+  color: black;
   box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.535);
 }
 
@@ -500,7 +500,7 @@ main h1 {
 }
 
 #footerWrapper {
-  background-color: #F2622E;
+  background-color: #f7a588;
 }
 
 footer {
@@ -510,7 +510,6 @@ footer p {
   margin: 0;
   font-weight: 300;
   text-align: center;
-  color: white;
 }
 
 @media only screen and (min-width: 35rem) {
@@ -554,7 +553,8 @@ footer p {
     width: 50%;
     padding: 1rem;
     font-size: 2rem;
-    background-color: orange;
+    background-color: rgb(255, 166, 0);
+    color: black;
   }
   .allCards {
     display: flex;

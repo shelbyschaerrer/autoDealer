@@ -73,21 +73,20 @@ nav {
         li {
             flex: 1;
             border-bottom: solid 1px rgb(99, 98, 98);
-            color: white;
-            background-color: #F2811D;
+            background-color: #f4ad6f;
         }
     }
     ul.open {
         display: block;
     }
     li.active {
-        background-color: #D93D93;
+        background-color: #fcb4db;
     }
     a {
         display: block;
         padding: .85rem;
         text-decoration: none;
-        color: white;
+        color: black;
     }
 }
 
@@ -110,6 +109,7 @@ nav {
         font-size: 1.5rem;
         right: 0;
         background-color: rgba(255, 166, 0, 0.81);
+        color: black;
         box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.535);
     }
 }
@@ -184,7 +184,7 @@ main h1 {
 // begin the footer
 
 #footerWrapper {
-    background-color: #F2622E;
+    background-color: #f7a588;
 }
 
 footer {
@@ -193,7 +193,6 @@ footer {
         margin: 0;
         font-weight: $lightWeight;
         text-align: center;
-        color: white;
     }
 }
 
